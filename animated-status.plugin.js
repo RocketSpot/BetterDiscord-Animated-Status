@@ -16,7 +16,7 @@ class AnimatedStatus {
 	}
 
 	getAuthor() {
-		return "toluschr";
+		return "rocketspot";
 	}
 
 	getDescription() {
@@ -68,7 +68,7 @@ class AnimatedStatus {
 	Status_Animate(index = 0) {
 		if (index >= this.animation.length) index = 0;
 		if (this.animation[index] == undefined) {
-			BdApi.showToast("Animated Status: No status set. Go to Settings>Plugins to set a custom animation!");
+			BdApi.showToast("Animated Status: No status set. Go to Settings > Plugins to set a custom animation!");
 			return;
 		}
 
